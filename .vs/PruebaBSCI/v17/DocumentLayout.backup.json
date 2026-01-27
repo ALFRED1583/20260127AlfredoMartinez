@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA8391D-BC33-4E04-8F44-4988EE92E951}|PruebaBSCIUnitTesting\\PruebaBSCIUnitTesting.csproj|c:\\users\\alexander\\desktop\\prueba t\u00E9cnica - bsci\\pruebabsci\\pruebabsciunittesting\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA8391D-BC33-4E04-8F44-4988EE92E951}|PruebaBSCIUnitTesting\\PruebaBSCIUnitTesting.csproj|solutionrelative:pruebabsciunittesting\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C290ECF9-DB13-4F97-B3BB-95471E1041E3}|PruebaBSCI\\PruebaBSCI.csproj|c:\\users\\alexander\\desktop\\prueba t\u00E9cnica - bsci\\pruebabsci\\pruebabsci\\controllers\\incidenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C290ECF9-DB13-4F97-B3BB-95471E1041E3}|PruebaBSCI\\PruebaBSCI.csproj|solutionrelative:pruebabsci\\controllers\\incidenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C290ECF9-DB13-4F97-B3BB-95471E1041E3}|PruebaBSCI\\PruebaBSCI.csproj|c:\\users\\alexander\\desktop\\prueba t\u00E9cnica - bsci\\pruebabsci\\pruebabsci\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C290ECF9-DB13-4F97-B3BB-95471E1041E3}|PruebaBSCI\\PruebaBSCI.csproj|solutionrelative:pruebabsci\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCIUnitTesting\\Test1.cs",
+              "RelativeDocumentMoniker": "PruebaBSCIUnitTesting\\Test1.cs",
+              "ToolTip": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCIUnitTesting\\Test1.cs",
+              "RelativeToolTip": "PruebaBSCIUnitTesting\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T21:58:41.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IncidenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCI\\Controllers\\IncidenciasController.cs",
+              "RelativeDocumentMoniker": "PruebaBSCI\\Controllers\\IncidenciasController.cs",
+              "ToolTip": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCI\\Controllers\\IncidenciasController.cs",
+              "RelativeToolTip": "PruebaBSCI\\Controllers\\IncidenciasController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T21:44:11.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCI\\DAL\\CategoriaDAL.cs",
+              "RelativeDocumentMoniker": "PruebaBSCI\\DAL\\CategoriaDAL.cs",
+              "ToolTip": "C:\\Users\\ALEXANDER\\Desktop\\Prueba t\u00E9cnica - BSCI\\PruebaBSCI\\PruebaBSCI\\DAL\\CategoriaDAL.cs",
+              "RelativeToolTip": "PruebaBSCI\\DAL\\CategoriaDAL.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T21:44:00.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

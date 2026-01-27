@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PruebaBSCI</name>
+    </assembly>
+    <members>
+        <member name="M:PruebaBSCI.Controllers.CategoriasController.Listar">
+            <summary>
+            Lista todas las categorías disponibles.
+            </summary>
+        </member>
+        <member name="M:PruebaBSCI.Controllers.IncidenciasController.RegistrarIncidencia(PruebaBSCI.EN.Incidencia)">
+            <summary>
+            Registrar Incidencia
+            </summary>
+        </member>
+        <member name="M:PruebaBSCI.Controllers.IncidenciasController.ObtenerIncidencia(System.Int64)">
+            <summary>
+            obtener incidencia especifica
+            </summary>
+        </member>
+        <member name="M:PruebaBSCI.Controllers.IncidenciasController.Listar(System.String,System.Nullable{System.Int32},System.String)">
+            <summary>
+            Obtener todas las incidencias
+            </summary>
+        </member>
+        <member name="M:PruebaBSCI.Controllers.IncidenciasController.ActualizarEstado(System.Int64,PruebaBSCI.Utilidades.Entrada.ActualizarEstado)">
+            <summary>
+            Registro de acciones en bitácora.
+            </summary>
+        </member>
+        <member name="T:PruebaBSCI.EN.Incidencia">
+            <summary>
+            Informacion de incidencia
+            </summary>
+        </member>
+        <member name="P:PruebaBSCI.EN.Incidencia.Titulo">
+            <summary>
+            Titulo de incidencia
+            </summary>
+        </member>
+        <member name="P:PruebaBSCI.EN.Incidencia.Descripcion">
+            <summary>
+            Descripcion de incidencia
+            </summary>
+        </member>
+        <member name="P:PruebaBSCI.EN.Incidencia.IdCategoria">
+            <summary>
+            Id de la categoria
+            </summary>
+        </member>
+        <member name="P:PruebaBSCI.EN.Incidencia.Severidad">
+            <summary>
+            Severidad
+            </summary>
+        </member>
+    </members>
+</doc>
