@@ -1,47 +1,40 @@
-📌 Ejemplos de Consumo de la API
+## 📌 Ejemplos de Consumo de la API
 
-🟢 Registrar una Incidencia
+---
 
-Método: POST
+### 🟢 Registrar una Incidencia
 
-Endpoint: /api/Incidencias
+**Método:** `POST`  
+**Endpoint:** `/api/Incidencias`
 
-Request
+#### Request
 
+```json
 {
-
   "titulo": "Primera Incidencia",
-  
   "descripcion": "Prueba de incidencia",
-  
   "idCategoria": 1,
-  
   "severidad": "baja",
-  
   "bitacoraInicial": null
-  
 }
 
-🔄 Actualizar Estado de una Incidencia
+```
+### 🔄 Actualizar Estado de una Incidencia
+Permite modificar el estado actual de una incidencia específica mediante su ID.
 
-Método: PUT
+**Método:** `PUT`
 
-Endpoint: /api/Incidencias/1/estado
+**Endpoint:** `/api/Incidencias/{id}/estado`
 
-Request
+#### Cuerpo de la petición (Request):
 
+```json
 {
-
   "estado": "En Proceso",
-  
   "comentario": "Incidencia en validación se validara",
-  
   "usuario": "alfredo",
-  
   "accionRealizada": "Se inicia evaluación del caso"
-  
-  
 }
-
+```
 
 
