@@ -13,7 +13,7 @@ namespace PruebaBSCI.DAL
             _cn = connectionString;
         }
 
-        public async Task<long> CrearIncidenciaAsync(Incidencia incidencia)
+        public virtual async Task<long> CrearIncidenciaAsync(Incidencia incidencia)
         {
             using var connection = new SqlConnection(_cn);
             using var command = new SqlCommand("SP_CrearIncidencia", connection);
@@ -37,7 +37,7 @@ namespace PruebaBSCI.DAL
             return Convert.ToInt64(result);
         }
 
-        public async Task<Incidencia?> ObtenerIncidenciaAsync(long idIncidencia)
+        public virtual async Task<Incidencia?> ObtenerIncidenciaAsync(long idIncidencia)
         {
             using var connection = new SqlConnection(_cn);
             using var command = new SqlCommand("SP_ObtenerIncidencia", connection);
@@ -85,7 +85,7 @@ namespace PruebaBSCI.DAL
             }
             return incidencia;
         }
-        public async Task<IEnumerable<Incidencia>> ListarIncidenciasAsync(string? estado, int? idCategoria, string? severidad)
+        public virtual async Task<IEnumerable<Incidencia>> ListarIncidenciasAsync(string? estado, int? idCategoria, string? severidad)
         {
             var lista = new List<Incidencia>();
 
@@ -121,7 +121,7 @@ namespace PruebaBSCI.DAL
 
             return lista;
         }
-        public async Task ActualizarEstadoAsync(long idIncidencia,string AccionRealizada, string estado, string comentario, string usuario)
+        public virtual async Task ActualizarEstadoAsync(long idIncidencia,string AccionRealizada, string estado, string comentario, string usuario)
         {
             using var connection = new SqlConnection(_cn);
             using var command = new SqlCommand("SP_ActualizarEstadoIncidencia", connection);

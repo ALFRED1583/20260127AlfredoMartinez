@@ -36,7 +36,7 @@ namespace PruebaBSCI.DAL
             return lista;
         }
 
-        public async Task<bool> ExisteCategoriaAsync(long idCategoria)
+        public virtual async Task<bool> ExisteCategoriaAsync(long idCategoria)
         {
             using var connection = new SqlConnection(_cn);
             using var command = new SqlCommand("SP_ExisteCategoria", connection);
