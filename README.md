@@ -62,3 +62,4 @@ El repositorio debe contener:
 - Carpeta del proyecto API
 - Documentación técnica (README.md)
 - Scripts de base de datos (procedimientos almacenados, catálogos)
+- Pruebas unitarias
