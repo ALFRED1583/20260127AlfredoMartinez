@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PruebaBSCI.BL;
-using PruebaBSCI.DAL;
 using PruebaBSCI.EN;
 using PruebaBSCI.Utilidades;
 using PruebaBSCI.Utilidades.Entrada;
